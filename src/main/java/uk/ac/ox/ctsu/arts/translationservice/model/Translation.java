@@ -9,7 +9,8 @@ import java.time.LocalDateTime;
 @Entity
 public class Translation {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "translation_seq")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "translation_sequence")
+    @SequenceGenerator(name = "translation_sequence", sequenceName = "translation_sequence", allocationSize = 1)
     @Column
     private Long id;
 

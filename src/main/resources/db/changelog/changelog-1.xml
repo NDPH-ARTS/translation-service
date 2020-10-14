@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd   http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <changeSet author="markph (generated)" id="3">
+        <sql>
+            -- EN
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'title', 'Arts Admin', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'id', 'Id', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'address', 'line1', 'Line 1', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'address', 'line2', 'Line 2', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'address', 'line3', 'Line 3', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'address', 'line4', 'Line 4', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'address', 'line5', 'Line 5', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'address', 'postal-code', 'Postal Code', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'address', 'postal-country', 'Postal Country', 'mdp', 'now');
+
+            --  JP
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'title', 'Arts Admin', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'id', 'Id', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'address', 'line1', 'ライン1"', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'address', 'line2', 'ライン2', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'address', 'line3', 'ライン3"', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'address', 'line4', 'ライン4', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'address', 'line5', 'ライン5', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'address', 'postal-code', '郵便番号', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'address', 'postal-country', '郵便国', 'mdp', 'now');
+
+            --  FR
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'title', 'Arts Admin', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'id', 'Id', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'address', 'line1', 'Adresse 1"', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'address', 'line2', 'Adresse 2', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'address', 'line3', 'Adresse 3"', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'address', 'line4', 'Adresse 4', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'address', 'line5', 'Adresse 5', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'address', 'postal-code', 'code postal', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'address', 'postal-country', 'pays postal', 'mdp', 'now');
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>
+
