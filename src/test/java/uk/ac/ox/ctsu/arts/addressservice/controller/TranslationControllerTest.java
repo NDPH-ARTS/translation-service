@@ -24,11 +24,19 @@ class TranslationControllerTest {
     }
 
     @Test
-    void getCallsRepository() {
+    void getBundleCallsRepository() {
         String bundle = "home-screen";
         String language = "fr";
         Translation translation = new Translation();
         when(translationRepository.getByLanguageAndBundle(language, bundle)).thenReturn(asList(translation));
         translationController.getBundle(language, "home-screen");
+    }
+
+    @Test
+    void getTranslationsCallsRepository() {
+        String language = "fr";
+        Translation translation = new Translation();
+        when(translationRepository.getByLanguage(language)).thenReturn(asList(translation));
+        translationController.getTranslations(language);
     }
 }
