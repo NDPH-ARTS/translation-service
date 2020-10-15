@@ -15,7 +15,7 @@ public class Translation {
     private Long id;
 
     @Column
-    private String language;
+    private String locale;
 
     @Column
     private String bundle;
@@ -23,12 +23,12 @@ public class Translation {
     @Column
     private String key;
 
-    public String getLanguage() {
-        return language;
+    public String getLocale() {
+        return locale;
     }
 
-    public void setLanguage(String language) {
-        this.language = language;
+    public void setLocale(String locale) {
+        this.locale = locale;
     }
 
     public String getBundle() {

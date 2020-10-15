@@ -19,11 +19,11 @@ public class TranslationController {
 
     @GetMapping("/translation/{language}/{bundle}")
     public List<Translation> getBundle(@PathVariable String language, @PathVariable String bundle) {
-        return translationRepository.getByLanguageAndBundle(language, bundle);
+        return translationRepository.getByLocaleAndBundle(language, bundle);
     }
 
     @GetMapping("/translation/{language}")
     public List<Translation> getTranslations(@PathVariable String language) {
-        return translationRepository.getByLanguage(language);
+        return translationRepository.getByLocale(language);
     }
 }

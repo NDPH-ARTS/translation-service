@@ -31,11 +31,11 @@
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('ja-jp', 'application', 'id', 'Id', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
-                VALUES ('ja-jp', 'address', 'line1', 'ライン1"', 'mdp', 'now');
+                VALUES ('ja-jp', 'address', 'line1', 'ライン1', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('ja-jp', 'address', 'line2', 'ライン2', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
-                VALUES ('ja-jp', 'address', 'line3', 'ライン3"', 'mdp', 'now');
+                VALUES ('ja-jp', 'address', 'line3', 'ライン3', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('ja-jp', 'address', 'line4', 'ライン4', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
