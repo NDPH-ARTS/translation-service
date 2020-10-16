@@ -17,7 +17,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("uk.ac.ox.ctsu.arts.translation.controller"))
+                .apis(RequestHandlerSelectors.basePackage("uk.ac.ox.ctsu.arts.translationservice.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
