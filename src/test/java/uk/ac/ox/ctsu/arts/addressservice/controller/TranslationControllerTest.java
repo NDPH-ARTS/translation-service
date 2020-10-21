@@ -28,7 +28,7 @@ class TranslationControllerTest {
         String bundle = "home-screen";
         String language = "fr";
         Translation translation = new Translation();
-        when(translationRepository.getByLocaleAndBundle(language, bundle)).thenReturn(asList(translation));
+        when(translationRepository.getByLocaleAndBundle("wrong", bundle)).thenReturn(asList(translation));
         translationController.getBundle(language, "home-screen");
     }
 
