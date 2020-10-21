@@ -1,6 +1,7 @@
 # translation-service
 Provides resource bundles of translated text via a rest-ish API
 
+![badge](https://img.shields.io/github/workflow/status/NDPH-ARTS/translation-service/Java%20CI)
 
 The following properties are required:
 
