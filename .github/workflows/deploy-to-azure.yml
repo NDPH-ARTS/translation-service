@@ -13,7 +13,7 @@ jobs:
       - uses: azure/webapps-deploy@v2
         with:
           app-name: 'translation-service'
-          images: 'ghcr.io/I tndph-arts/translation-service:${{ github.sha }}'
+          images: 'ghcr.io/ndph-arts/translation-service:${{ github.sha }}'
       - name: package name
         if: ${{ always() }}
         run: echo '${{github.event.registry_package.package.name}}'
