@@ -1,4 +1,4 @@
-name: Build and Deploy to Azure
+name: Build and Push Image to GHCR
 
 on:
   push:
