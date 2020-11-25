@@ -51,11 +51,11 @@
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('fr-fr', 'application', 'id', 'Id', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
-                VALUES ('fr-fr', 'address', 'line1', 'Adresse 1"', 'mdp', 'now');
+                VALUES ('fr-fr', 'address', 'line1', 'Adresse 1', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('fr-fr', 'address', 'line2', 'Adresse 2', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
-                VALUES ('fr-fr', 'address', 'line3', 'Adresse 3"', 'mdp', 'now');
+                VALUES ('fr-fr', 'address', 'line3', 'Adresse 3', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('fr-fr', 'address', 'line4', 'Adresse 4', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
