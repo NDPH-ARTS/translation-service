@@ -25,6 +25,22 @@
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('en-gb', 'address', 'postal-country', 'Postal Country', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'login', 'login', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'logout', 'logout', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'Home', 'Home', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'Admin', 'Admin', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'Clinical Trial', 'Clinical Trial', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'Addresses', 'Addresses', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'Close', 'Close', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('en-gb', 'application', 'Welcome', 'Welcome', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('en-gb', 'application', 'login', 'Login', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('en-gb', 'application', 'logout', 'Log out', 'mdp', 'now');
@@ -52,6 +68,22 @@
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('ja-jp', 'address', 'postal-country', '郵便国', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'login', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'logout', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'Home', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'Admin', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'Clinical Trial', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'Addresses', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'Close', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('ja-jp', 'application', 'Welcome', '郵便国', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('ja-jp', 'application', 'login', 'ログイン', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('ja-jp', 'application', 'logout', 'ログアウト', 'mdp', 'now');
@@ -74,15 +106,28 @@
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('fr-fr', 'address', 'line5', 'Adresse 5', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
-                VALUES ('fr-fr', 'address', 'postal-code', 'code postal', 'mdp', 'now');
+                VALUES ('fr-fr', 'address', 'postal-code', 'Code Postal', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
-                VALUES ('fr-fr', 'address', 'postal-country', 'pays postal', 'mdp', 'now');
+                VALUES ('fr-fr', 'address', 'postal-country', 'Pays Postal', 'mdp', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'Home', 'Accueil', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'Admin', 'Adminstration', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'Clinical Trial', 'Essai Clinique', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'Addresses', 'Adresses', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'Close', 'Fermer', 'si', 'now');
+            INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
+                VALUES ('fr-fr', 'application', 'Welcome', 'Bonjour', 'si', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('fr-fr', 'application', 'login', 'Identifiez-vous', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('fr-fr', 'application', 'logout', 'Se déconnecter', 'mdp', 'now');
             INSERT INTO translation (locale, bundle, key, value, changed_who, changed_when)
                 VALUES ('fr-fr', 'application', 'items-per-page', 'objets par page', 'mdp', 'now');
+
 
         </sql>
     </changeSet>
